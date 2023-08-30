@@ -1,0 +1,125 @@
+.tools {
+  float: left;
+  width: 100px;
+  padding: 5px;
+}
+
+.tools li {
+  padding: 5px;
+  list-style: none;
+}
+
+.tools li:hover {
+  color: #6495ed;
+  cursor: pointer;
+}
+
+.tools li.marked {
+  color: #fff;
+  background-color: #6495ed;
+}
+
+#drawArea {
+  background-color: #d3d3d3;
+  border: 1px solid #000;
+}
+
+.background-color-list {
+  list-style-type: none;
+  display: block;
+}
+
+.colorForm {
+  align-items: normal;
+  display: flex;
+}
+
+.color-radioBttn {
+  cursor: pointer;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.lblRadio {
+  cursor: pointer;
+  margin: 0;
+}
+
+.drawing {
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+}
+
+.move-cursor {
+  cursor: move;
+}
+
+#eventOutput {
+  width: 1006px;
+  height: 305px;
+}
+
+.normal-cursor {
+  cursor: default;
+}
+
+.canvas-selection {
+  cursor: pointer;
+}
+
+.label {
+  cursor: pointer;
+  width: 50px;
+  display: inline-block;
+  position: relative;
+}
+
+.drawing:hover {
+  background-color: red;
+}
+
+#popupMenu {
+  z-index: 10000;
+  transform-origin: 0 0;
+  background: #1b1a1a;
+  border-radius: 5px;
+  width: 150px;
+  position: fixed;
+  transform: scale(0);
+}
+
+#popupMenu.visible {
+  transition: transform .2s ease-in-out;
+  transform: scale(1);
+}
+
+#popupMenu .item:hover {
+  background: #343434;
+}
+
+.popupmenu {
+  background: #d3d3d3;
+  list-style-type: none;
+  position: absolute;
+  border-style: solid !important;
+  border-color: #aecff7 !important;
+}
+
+.popupmenu-item {
+  cursor: pointer;
+}
+
+.popupmenu-item:hover {
+  background-color: #fff;
+}
+
+.popupmenu-item-separator {
+  background-color: #000;
+  margin: 1px;
+  padding: 1px;
+}
+
+/*# sourceMappingURL=index.2cdaf7bc.css.map */

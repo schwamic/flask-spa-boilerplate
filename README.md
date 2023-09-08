@@ -1,10 +1,10 @@
 # Minimal Flask Webserver + SPA
 
-SPA was bundeld by [Parcel](https://en.parceljs.org/getting_started.html).
+SPA code was bundeld by [Parcel](https://en.parceljs.org/getting_started.html).
 
-1. Alle JS/CSS Files von deiner SPA in `/dist/static` verschieben
-2. `index.html` muss in `/dist` liegen
-3. `index.html`: `src` anpassen für JS/CSS Files (`/static/...`)
+1. Copy/Paste JS/CSS files to `/dist/static`
+2. Move `index.html` one level up to `/dist`
+3. Edit path in `index.html`: `src` for JS/CSS files: `/static/...`
 
 ## Start Server
 
